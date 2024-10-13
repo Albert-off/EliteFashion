@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIXICONS ===============-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>EliteFashion</title>
+    </head>
+    <body>
+        <div class="popup-overlay"></div>
+        <div class="popup">
+            <i class="ri-close-large-line popup__close"></i>
+            <div class="popup__content">
+                <h2>
+                    Thank you for joining us! 💌
+                </h2>
+                <span>
+                    You have subscribed to our updates.
+                </span>
+            </div>
+        </div>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">
+                    EliteFashion.
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="ri-home-line"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#new-in" class="nav__link">
+                                <i class="ri-price-tag-3-line"></i>
+                                <span>New in</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#designers" class="nav__link">
+                                <i class="ri-compass-line"></i>
+                                <span>Designers</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#blog" class="nav__link">
+                                <i class="ri-t-shirt-line"></i>
+                                <span>Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#our-stores" class="nav__link">
+                                <i class="ri-t-shirt-line"></i>
+                                <span>Our stores</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav-div" style="display: flex; margin-left: 3rem;">
+                    <!-- <a href="location.html" class="nav-div-location">
+                        <span>Location</span>
+                    </a> -->
+
+                    <a href="contact.html">
+                        <span>Contact</span>
+                    </a>
+
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== LOCATIONS ====================-->
+            <section class="section-p1 section" id="product1">
+                <h2 class="section__title">
+                    Locations
+                </h2>
+                <p align="center" style="margin-top: -3rem;">
+                    Our locations
+                </p>
+
+                <div class="container" style="margin-bottom: 35rem;">
+
+                </div>
+            </section>
+
+            <!--==================== JOIN ====================-->
+            <section class="join">
+                <div class="join__container">
+                    <img src="assets/img/join-bg.png" alt="image" class="join__bg">
+
+                    <div class="join__data container grid">
+                        <h2 class="join__title section__title">
+                            Subscribe To Receive <br>
+                            The Latest Updates
+                        </h2>
+
+                        <form class="join__form" id="receive-form">
+                            <input type="email" required placeholder="Enter email" class="join__input">
+                            <button type="submit" class="join__button">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section" id="products">
+                <h2 class="section__title">
+                    Best Sellers
+                </h2>
+
+                <div class="products__container container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="products__card swiper-slide">
+                            <img src="assets/img/best-sellers/boss-1.avif" alt="product image" class="products__img">
+                        
+                            <h2 class="products__title">
+                                BOSS
+                            </h2>
+                            <span class="products__price">
+                                Hyde Virgin Wool-Cashmere Overcoat
+                                <!-- $995 -->
+                            </span>
+                        </article>
+
+                        <article class="products__card swiper-slide">
+                            <img src="assets/img/best-sellers/moncler-1.avif" alt="product image" class="products__img">
+                        
+                            <h2 class="products__title">
+                                Moncler 
+                            </h2>
+                            <span class="products__price">
+                                Alfit Padded Down Jacket      
+                                <!-- $2020 -->
+                            </span>
+                        </article>
+
+                        <article class="products__card swiper-slide">
+                            <img src="assets/img/best-sellers/mackage-2.avif" alt="product image" class="products__img">
+                        
+                            <h2 class="products__title">
+                                Mackage
+                            </h2>
+                            <span class="products__price">
+                                Graydon 2-In-1 Light Down Jacket
+                                <!-- $1250 -->
+                            </span>
+                        </article>
+
+                        <article class="products__card swiper-slide">
+                            <img src="assets/img/best-sellers/mackage-1.avif" alt="product image" class="products__img">
+                        
+                            <h2 class="products__title">
+                                Mackage
+                            </h2>
+                            <span class="products__price">
+                                Bobbie Agile-360 Down Vest
+                                <!-- $550 -->
+                            </span>
+                        </article>
+
+                        <article class="products__card swiper-slide">
+                            <img src="assets/img/best-sellers/moncler-2.avif" alt="product image" class="products__img">
+                        
+                            <h2 class="products__title">
+                                Moncler
+                            </h2>
+                            <span class="products__price">
+                                Vulpie Short Down Jacket
+                                <!-- $3205 -->
+                            </span>
+                        </article>
+
+                        <article class="products__card swiper-slide">
+                            <img src="assets/img/best-sellers/brunello-cucinelli-1.avif" alt="product image" class="products__img">
+                        
+                            <h2 class="products__title">
+                                Brunello Cucinelli
+                            </h2>
+                            <span class="products__price">
+                                Cashmere Jacket
+                                <!-- $5595 -->
+                            </span>
+                        </article>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-line"></i>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== BRANDS ====================-->
+            <section class="brand section">
+                <h2 class="section__title">
+                    Brands We Sell
+                </h2>
+
+                <div class="brand__container container grid">
+                    <img src="assets/img/brand-logos/logo1.png" alt="logo image" class="brand__img">
+                    <img src="assets/img/brand-logos/logo2.png" alt="logo image" class="brand__img">
+                    <img src="assets/img/brand-logos/logo3.png" alt="logo image" class="brand__img">
+                    <img src="assets/img/brand-logos/logo4.png" alt="logo image" class="brand__img">
+                    <img src="assets/img/brand-logos/logo5.png" alt="logo image" class="brand__img">
+                    <img src="assets/img/brand-logos/logo6.png" alt="logo image" class="brand__img">
+                    <img src="assets/img/brand-logos/logo7.png" alt="logo image" class="brand__img">
+                    <img src="assets/img/brand-logos/logo8.png" alt="logo image" class="brand__img">
+                    <img src="assets/img/brand-logos/logo9.png" alt="logo image" class="brand__img">
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        EliteFashion.
+                    </a>
+
+                    <p class="footer__description">
+                        Committed to bringing you the <br>
+                        best clothing from popular <br>
+                        brands.
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            Company
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="index.html" class="footer__link">Shop</a>
+                            </li>
+
+                            <li>
+                                <a href="index.html#collection" class="footer__link">Category</a>
+                            </li>
+
+                            <li>
+                                <a href="contact.html" class="footer__link">Contact info</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Blog
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Events</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Popular news</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Recent news</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Office
+                        </h3>
+
+                        <p class="footer__information">
+                            Monday - Saturday <br>
+                            9AM - 10PM
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; EliteFashion. All rights reserved
+                </span>
+
+                <a href="#" class="footer__privacy">
+                    Terms & Conditions
+                </a>
+            </div>
+        </footer>
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+        
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
